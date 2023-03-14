@@ -3,38 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="css/stylesc.css">
 </head>
 <body>
+    <div class="contact-me">
+        <div class="title">
+            <h1>Contact me</h1>
+        </div>
 
-    <h1>Contact Informaiton</h1>
-    <p>Phone Number: 809-780-9446</p>
-    <p>Email Address: fx173800@email.com</p>
-    <p>Physical Address: Calle web 17, Santo Domingo Oeste</p>
-    <p>Fax Number: 717-000-0000</p>
-    <p>Para cualquier information ve a mi pagina web haciendo click en el boton de abajo</p>
-    <button><a href="index.html">Mas informacion</a></button>
-    <br>
-    <br>
+        <div class="form">
+            <div class="form-items">
+                <input type="text" class="input" placeholder="Full Name">
+            </div>
+            <div class="form-items">
+                <input type="email" class="input" placeholder="Email Address">
+            </div>
+            <div class="form-items">
+                <input type="tel" class="input" placeholder="Phone Number">
+            </div>
+            <div class="form-items">
+                <textarea class="input message" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+        </div>
 
-    <hr>
+        <div class="btn">
+            Submit
+        </div>
 
-    <h3>Para mas Informacion completa el formulario</h3>
+        <div class="social-icons">
+            <div class="facebook">
+                <img class="fab" src="imagenes/facebook.png" alt="">
+            </div>
 
-    <form action="mailto:cristian173800@gmail.com" enctype="text/plain" method="post">
-        <label>Your Name:</label>
-        <input type="text" name="Name">
-        <br>
-        <label>Your Email:</label>
-        <input type="email" name="Email" required>
-        <br>
-        <label>Phonenumber:</label>
-        <input type="tel" name="Phonenumber">
-        <br>
-        <label>Tu Mensaje:</label>
-        <br>
-        <textarea name="Mensaje" cols="30" rows="5"></textarea>
-        <input type="submit">
-    </form>
+            <div class="twitter">
+                <img class="fab" src="imagenes/twitter.png" alt="">
+
+            </div>
+            
+            <div class="google">
+                <img class="fab" src="imagenes/buscar.png" alt="">
+
+            </div>
+        </div>
+
+    </div>
     
 </body>
 </html>

@@ -1,28 +1,17 @@
 
-
 body {
-    background-color: #EAF6F6;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ECF9FF;
 }
 
 hr {
-    width: 10%;
-    border-style: dotted none none;
-    border-width: 6px;
-    border-color: #E8E2E2;
- }
-
- h1, h3 {
-    color: #66bfbf;
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
- }
-
- .profile:hover {
-    background-color: black;
-    border-radius: 35%;
- }
-
- .cbutton:hover {
-    background-color: #E9F8F9;
     border-style: none;
- }
+    border-top-style: dotted;
+    width: 10%;
+    border-color: #FFFBEB;
+    border-width: 6px;
+
+}
+
+h1, h3 {
+    color: #7FE9DE;
+}
