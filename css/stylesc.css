@@ -60,6 +60,7 @@ body {
     padding: 12px;
     border-radius: 25px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .social-icons {
@@ -72,4 +73,3 @@ body {
     cursor: pointer;
     justify-content: space-around;
 }
-
